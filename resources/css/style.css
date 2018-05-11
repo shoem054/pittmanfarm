@@ -7,3 +7,22 @@ html {
   justify-content: center;
   padding-top: 1rem;
 }
+.nav-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+}
+nav {
+  width: 960px;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  padding: 0 1rem;
+}
