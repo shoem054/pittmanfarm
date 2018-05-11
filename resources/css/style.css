@@ -5,7 +5,7 @@ html {
 .banner {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 .nav-container {
   display: flex;
@@ -18,11 +18,18 @@ nav {
   background-color: khaki;
   display: flex;
   justify-content: center;
+    border: 1px solid #200000;
+    border-radius: 5px;
 }
 nav ul {
   display: flex;
   align-items: center;
 }
-ul li {
-  padding: 0 1rem;
+ul li a {
+  padding: 0 2.5rem;
+  text-decoration: none;
+  color: #050000;
+}
+ul li a:hover {
+  font-weight: 900;
 }
